@@ -52,19 +52,20 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 header .navbar-brand {
-  background: url(../images/dalissimge2.png);
+  background: url(../images/Mertcan3.png);
   background-repeat: no-repeat;
-  background-position: top right;
-  height: auto;
+  background-position: top left;
+  height: 250px;
+  width: 250px;
 }
 
-header .navbar-brand h1 {
+/**header .navbar-brand h1 {
   color: white;
   margin: 0;
   font-size: 1.8em;
   font-weight: 400;
   padding-right: 405px;
-}
+}**/
 
 header .navbar-brand span.subhead {
   display: block;
@@ -98,15 +99,17 @@ header .inbody {
 header .navbar.inbody {
   padding-top: 0;
   padding-bottom: 0;
+  height: 70px;
 }
 
 header .navbar.inbody .navbar-nav {
   padding-top: 10px;
+  
 }
 
 header .inbody .navbar-brand {
-  background-size: 43px;
-  background-position: top center;
+  background-size: 73px;
+  background-position: top left;
   margin-top: 5px;
   padding-bottom: 0;
   margin-left: 10px;
@@ -329,6 +332,46 @@ and (max-width: 768px) {
 #testimonials .quote:hover .intro::after {
   content: '';
 }
+
+
+
+
+/** Map **/
+
+#content {
+    
+    background-color: #107d93;
+  background-image: linear-gradient(to bottom, #107d93, #3ec3dd);
+  border-top: 20px solid rgba(14, 102, 119, .5);
+    
+}
+
+#sitenotice {
+    
+    background-color: #107d93;
+  background-image: linear-gradient(to bottom, #107d93, #3ec3dd);
+  border-top: 20px solid rgba(14, 102, 119, .5);
+    
+}
+
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+      #info-box {
+        background-color: white;
+        border: 1px solid black;
+        bottom: 50px;
+        height: 220px;
+        padding-right: 3px;
+        position: relative;
+        background-position: right;
+        
+        
+      }
+
+
+
 
 /**  Footer **/
 
